@@ -1,0 +1,126 @@
+.sidebar {
+    width: 350px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    height: 100%;
+  }
+  
+  .sidebar__head {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .sidebar__head__title {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    color: var(--textColor);
+    /* margin-left: 5px; */
+
+  }
+  .subArticle__sidebar__head__button__icon {
+    color: var(--subArticleIconColor);
+    font-size: 17px;
+    cursor: pointer;
+
+  }
+  .sidebar__head__button__icon_angle{
+    color: var(--articleNavColor);
+
+  }
+  .subArticle___sidebar__head__title{
+      display: flex;
+      flex-direction: row;
+   
+  }
+  
+  .sidebar__list {
+    margin-top: 10%;
+  }
+  
+  .sidebar__subtitle__list__item {
+    height: 100px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+  }
+  
+  .sub__article__sidebar__list__item--active { 
+    background: var(--subSelectionTextColor);
+  }
+  
+  .sidebar__list__item__title {
+    white-space: nowrap;
+    font-size: 13px;
+    font-weight: 400;
+    width: calc(100% - 35px);
+    text-overflow: ellipsis;
+    text-align: center;
+    color: var(--articleNavColor);
+  }
+  
+  .sidebar__list__item__text {
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 10px; 
+    color: var(--secondaryText);
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    line-height: 22px;
+  }
+  
+  .sidebar__list__item__button-group {
+    position: absolute;
+    top: 22px;
+    right: 5px;
+  }
+  
+  .sidebar__list__item__button {
+    margin-right: 15px;
+  }
+  
+  .sidebar__list__item__icon{
+    /* color: var(--sideBarIconColor); */
+    font-size: 17px;
+    margin-top: 60%;
+
+  }
+.sub__article__sidebar__list__item__container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+  .sub__article__sidebar__list__item__head{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+  .sidebar__list__item__description{
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: 400;
+    width: calc(100% - 35px);
+    text-overflow: ellipsis;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .sidebar__list__item__body__description{
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 10px; 
+    color: var(--secondaryText);
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    line-height: 22px;
+    margin-left: 20px;
+
+  }

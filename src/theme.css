@@ -1,0 +1,48 @@
+html.color-theme-in-transition,
+html.color-theme-in-transition *,
+html.color-theme-in-transition *:before,
+html.color-theme-in-transition *:after {
+  transition: all 750ms !important;
+  transition-delay: 0 !important;
+}
+
+html {
+  /* global colors */
+  --primaryTheme: #e52863;
+
+  --primaryBg: #0278d5;
+
+  --primaryText: #212121;
+  --secondaryText: #7b7b7b;
+  --textColor:#fff;
+  --subArticleTextColor:#212121;
+  --primaryButtonText: #fff;
+  --primaryBgTitle:var(--primaryBg);
+  --primaryBorderBg: #efefef;
+  --sideBarIconColor:#fff;
+  --subArticleIconColor:var(--primaryBg);
+  --articleNavColor:#9ea2a8;
+  --activeSelectionBg: #fff;
+  --selectionTextColor:#212121;
+  --subSelectionTextColor:#f4f9fe;
+  --primaryShadowBg: rgba(204, 204, 204, 0.7);
+}
+
+html[data-theme="dark"] {
+  --primaryTheme: #e52863;
+  --primaryBg: #1a1a1d;
+  --primaryText: rgba(255, 255, 255, 0.8);
+  --secondaryText: rgba(255, 255, 255, 0.6);
+  --textColor:#fff;
+  --subArticleTextColor:#fff;
+  --sideBarIconColor:#fff;
+  --articleNavColor:#fff;
+  --subArticleIconColor:#fff;
+  --primaryBgTitle:#fff;
+  --primaryButtonText: #fff;
+  --selectionTextColor: #fff;
+  --subSelectionTextColor:#212121;
+  --primaryBorderBg: #292929;
+  --activeSelectionBg: rgba(0, 0, 0, 0.18);
+  --primaryShadowBg: rgba(8, 8, 8, 0.7);
+}

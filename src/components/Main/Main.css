@@ -1,0 +1,13 @@
+.main {
+    display: flex;
+    height: calc(100% - 70px);
+  }
+  .header__button {
+    padding: 0 15px;
+    height: 32px;
+    background: var(--primaryTheme);
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--primaryButtonText);
+    border-radius: 20px;
+  }
